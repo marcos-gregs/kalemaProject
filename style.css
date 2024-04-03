@@ -1,0 +1,137 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+.MainSection,.SobreNosSection,.ServicesSection,.PortfolioSection,.QualidadeSection,.ContactSection{
+    width: 100vw;
+    height: 100vh;
+}
+
+.MainSection{
+
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4458158263305322) 35%, rgba(0,212,255,0.22452731092436973) 100%), url('./img/MainSection.jpg');
+    background-size: cover;
+}
+.SobreNosSection{
+    display: flex;
+    flex-direction: column;
+}
+.TitleSobreNos{
+     font-size: 28px;
+     padding-top: 1%;   
+     padding-left: 5%;
+}
+.ContentSobreNos{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ContentImgSobreNos{
+    
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4458158263305322) 35%, rgba(0,212,255,0.22452731092436973) 100%), url('./img/NewSobreNosImg.jpg');
+    width: 50%;
+    height: 100%;
+    
+}
+
+.ContentTextSobreNos{
+    margin-top: 2%;
+    width: 50%;
+    height: 100%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.ContentTextSobreNos>h1{
+    width: 90%;
+}
+
+.ContentTextSobreNos>p{
+    width: 90%;
+}
+.industrySkills{
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.SkillsExp,.SkillsFlex{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.btnWhats{
+    margin-top: 2%;
+    width: 90%;
+}
+.ServicesSection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ServicesSectionImg{
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4458158263305322) 35%, rgba(0,212,255,0.22452731092436973) 100%), url('./img/imgServiceSeticon.jpeg');
+    width: 50%;
+    height: 100%; 
+    background-size: cover;
+}
+.ServicesSectionText{
+    width: 50%;
+    height: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    text-align: justify;
+}
+.ServicesSectionText>h1{
+    width: 90%;
+    margin-bottom: 2%;
+}
+.ServicesSectionText>p{
+    width: 90%;
+    margin-bottom: 2%;
+}
+.PortfolioSection{
+    display: flex;
+    flex-direction: row;
+}
+.PortfolioSectionImg{
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4458158263305322) 35%, rgba(0,212,255,0.22452731092436973) 100%), url('./img/QualidadeSectionImg.jpeg');
+    width: 50%;
+    height: 100%; 
+    background-size: cover;
+}
+
+.PortfolioSectionText{
+    width: 50%;
+    height: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    text-align: justify;
+}
+.ContactSection{
+    display: flex;
+    flex-direction: row;
+    background-image:radial-gradient(circle, rgba(13,12,12,0.43601190476190477) 0%, rgba(0,0,0,0.48363095238095233) 35%, rgba(10,10,10,0.4248074229691877) 100%),url('./img/ContactImg.jpeg');
+    background-size: cover;
+}
+.ContactSectionText{
+    width: 50%;
+    height: 100%;
+}
+.ContactSectionText>h1{
+    font-size: 24px;
+}
+.ContactSectionText > ul{
+    margin-top: 20%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.ContactSectionImg{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
